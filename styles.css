@@ -50,7 +50,7 @@ body {
 }
 
 .poke_data {
-  font-size: clamp(12px, 5%, 2px);
+  font-size: clamp(12px, 15%, 2px);
   position: absolute;
   bottom: 40%;
 }
