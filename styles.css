@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+header{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+   
+    
+}
+.textHeader{
+    color:white;
+}
+main{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+ 
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.poke_image{
+    z-index: 1;
+    position: absolute;
+    bottom: 50%;
+    transform: translate(-12%, 0%);
+    height: 20%;
+}
+.poke_data{
+    font-size: 15px;
+    position: absolute;
+    bottom: 40%;
+}
+.poke_name{
+    text-transform: uppercase;
+}
+.poke_form{
+    position: absolute;
+    bottom: 28%;
+    width: 60%;
+}
+.poke_search{
+    
+    width: 40%;
+    padding: 1%;
+    transform: translate(-6%, 0%);
+    outline: none;
+    border: 3px solid #333;
+    border-radius: 5px;
+    font-weight: 560;
+    font-size: clamp(15px, 5%, 28px);
+    box-shadow: -3px 2px 0 #888, -5px 5px 0 #333;
+}
+.buttons{
+    position: absolute;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    bottom: 10%;
+    width: 70%;
+    
+}
+.button{
+    
+    font-size: 12px;
+    width: 10%;
+    padding: 15px;
+    border: 3px solid #333;
+    background-color: white;
+    box-shadow: -3px 2px 0 #888, -5px 5px 0 #333;
+    border-radius: 4px;
+}
+
+
+.button:active{
+    box-shadow: inset -4px 1px 0 #333;
+    
+
+}
+
