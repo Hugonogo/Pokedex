@@ -37,10 +37,10 @@ body {
 }
 
 .pokedex {
-  margin: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   width: 100%;
 }
-
 .poke_image {
   z-index: 1;
   position: absolute;
