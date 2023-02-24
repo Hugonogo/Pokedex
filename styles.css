@@ -41,6 +41,12 @@ body {
   margin-right: 10%;
   width: 75%;
 }
+@media (min-width:1200px) {
+    .pokedex{
+        width: 35%;
+    }
+    
+}
 .poke_image {
   z-index: 1;
   position: absolute;
@@ -54,7 +60,11 @@ body {
   position: absolute;
   bottom: 40%;
 }
-
+@media(min-width: 1200px){
+    .poke_data{
+       font-size: 95%;
+    }
+}
 .poke_name {
   text-transform: uppercase;
 }
@@ -63,6 +73,11 @@ body {
   position: absolute;
   bottom: 28%;
   width: 60%;
+}
+@media(min-width: 1200px){
+    .poke_form{
+        width: 30%;
+    }
 }
 
 .poke_search {
@@ -104,4 +119,9 @@ body {
   box-shadow: inset -4px 1px 0 #333;
 
 
+}
+@media(min-width: 1200px){
+    .button{
+        width: 15%;
+    }
 }
